@@ -1,0 +1,230 @@
+body
+{
+	margin:0;
+	padding:0;
+}
+.fnt
+{
+	font-family: 'Moon Dance', cursive;
+	font-weight:600;
+	
+}
+.abc
+{
+	padding:50px 0;
+	background:url('../image/dl.png') no-repeat;
+	background-size:cover;
+	text-align:center;
+}
+.abc img
+{
+	transition:transform 1s;
+}
+.abc img:hover
+{
+	transform:scale(1.2,1.2);
+}
+.abc p
+{
+	color:#fff;
+	text-align:justify;
+	font-family: 'Fuzzy Bubbles', cursive;
+}
+.space
+{
+	margin:20px 30px;
+}
+
+.me
+{
+	
+	background:url('../image/bg2.jpg') no-repeat;
+	background-size:cover;
+	padding:50px 0;
+}
+.me p
+{
+	color:#ffe;
+	text-align:justify;
+}
+.me h3
+{
+	color:lime;
+}
+.imgar
+{
+	margin-bottom:25px;
+	padding:0;
+}
+.crds
+{
+	padding:50px 0;
+	background-image:linear-gradient(to right,#1f1f1f,#333 );
+}
+.tcard
+{
+	margin:30px auto;
+}
+.our
+{
+	padding:25px 0 20px 0;
+	background:#333;
+}
+.our p
+{
+	font-family:arial;
+	color:#8a8a8a;
+	text-align:justify;
+	padding:0 0 0 20px;
+	border-left:1px #8a8a8a solid;
+}
+.our ul
+			{
+				list-style-type:none;
+			}
+			.our ul li a:link, .our ul li a:visited
+			{
+				font-family:arial;
+				font-size:20px;
+				color:#8a8a8a;
+				text-align:justify;
+				padding:2.5px 0 2.5px 20px;
+				display:block;
+				border-left:1px #8a8a8a solid;
+				font-weight:500;
+				text-decoration:none;
+				transition:all 0.5s;
+			}
+.our ul li a:hover
+{
+	color:#fff;
+}
+.cntr
+{
+	text-align:center;
+}
+
+.ftr
+{
+	padding:50px 0;
+	background-image:linear-gradient(to right,#1f1f1f,#333 );
+	border-top:1px #8a8a8a solid;
+}
+.ftr p
+{
+	font-family:arial;
+	color:#8a8a8a;
+	text-align:justify;
+}
+.fa {
+  padding: 8px 20px 20px 8px;
+  font-size:30px;
+  height:30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa:hover
+{
+	text-decoration:none;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: whitgooglee;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.btom
+{
+	margin-left: 30px;
+}
+.clr
+{ 
+	padding:0;
+	margin:0;
+}
+.clr p
+{
+	color:#ccc;
+}
+.clr p a:link, .clr p a:visited
+{
+	color:#00FF01;
+	text-decoration:none;
+	transition:all 0.5s;
+}
+.clr p a:hover
+{
+	color:#090;
+}
+.chota
+{
+	width: 35rem;
+}
+@media screen and (max-width:1000px)
+{
+	.abc,.me
+	{
+		padding:0 20px 20px 20px;
+	}
+	.chota
+	{
+		width:18rem;
+	}
+}
+.quote
+{
+	background:none;
+}
+.quote h1
+{
+	text-align:center;
+	padding:0;
+	margin:0;
+	color:lime;
+	display:inline;
+	font-family: 'Spirax', cursive;
+	text-shadow: 2px 2px 5px #050;
+}
+.quote p
+{
+	text-align:center;
+	padding:0;
+	margin:0;
+	color:#00ee00;
+	font-family: 'Spirax', cursive;
+	font-size:30px;
+	text-shadow: 2px 2px 5px #050;
+}
+.policy
+{
+	background:url('../image/bg2.jpg') no-repeat;
+	background-size:cover;
+	padding:50px 0;
+}
+.card-text
+{
+	text-align:justify;
+}
